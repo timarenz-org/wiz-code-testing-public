@@ -1,0 +1,5 @@
+ignore:
+  vulnerabilities:
+    CVE-2023-30861:
+      app/requirements.txt:
+        reason: BY_DESIGN
