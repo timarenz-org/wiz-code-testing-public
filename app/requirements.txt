@@ -3,4 +3,4 @@ twisted==19.10.0 # Critical (and below): CVE-2020-10108 in Twisted Web (HTTP req
 pillow==10.2.0 # High (and below): multiple Pillow issues incl. CVE-2024-28219 (<10.3.0)
 urllib3==2.0.6 # Medium (and below): CVE-2023-45803 in urllib3 (fixed in 1.26.18 / 2.0.7)
 certifi==2024.6.2 # Low only: certifi GLOBALTRUST root issue (CVE-2024-39689), fixed in 2024.7.4
-# As of August 12th, 2025
+picklescan==0.0.30
