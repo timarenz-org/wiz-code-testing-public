@@ -1,2 +1,3 @@
 # CODEOWNERS
+.github/CODEOWNERS @timarenz-org/platform-leads 
 .wiz @timarenz-org/security-reviewers
