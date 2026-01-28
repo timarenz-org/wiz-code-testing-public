@@ -1,0 +1,16 @@
+name: Vulnerable Issue Processor
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  print-issue-title:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Print Title (INSECURE)
+        # ⚠️ VULNERABILITY: Direct interpolation of untrusted input
+        run: |
+          echo "Processing issue: ${{ github.event.issue.title }}"
