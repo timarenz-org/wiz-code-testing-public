@@ -1,0 +1,6 @@
+ignore:
+  vulnerabilities:
+    CVE-2023-30861:
+      app/requirements.txt:
+        reason: RISK_ACCEPTED
+        expires: 2025-10-31T00:00:00Z
